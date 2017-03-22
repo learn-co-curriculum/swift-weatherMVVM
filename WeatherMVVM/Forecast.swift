@@ -9,6 +9,10 @@
 import Foundation
 import SwiftyJSON
 
+enum ForecastType {
+    case day, week, hour
+}
+
 struct Forecast {
     
     let currentForecast: CurrentForecast
@@ -215,5 +219,6 @@ struct Day {
     
     
 }
+
 
 

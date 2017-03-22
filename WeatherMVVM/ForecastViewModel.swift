@@ -11,9 +11,7 @@ import Foundation
 typealias RefreshFunction = () -> ()
 
 
-enum ForecastType {
-    case day, week, hour
-}
+
 
 
 class ForecastViewModel {
